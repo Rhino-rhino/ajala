@@ -78,7 +78,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0px 40px;
-  width: 300px;
+  width: 320px;
 }
 
 .left div:first-of-type {
@@ -129,7 +129,7 @@ button:hover {
   padding: 0 10px;
 }
 .right img {
-  height: 28vw;
+  height: 25vw;
 }
 
 @media (max-width: 768px) {
