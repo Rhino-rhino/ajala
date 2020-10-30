@@ -111,6 +111,12 @@ button {
   margin-top: 20px;
   outline: none;
   font-size: 12px;
+  transition: all 0.3s;
+}
+
+button:hover {
+   background-color:rgb(160, 44, 44);
+   transform: scale(0.8);
 }
 
 .right {
