@@ -44,6 +44,12 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+
+background-color: rgba(0, 255, 255, 0.377);
+
+}
+
 .top {
   display: flex;
   align-items: center;
