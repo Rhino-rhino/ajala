@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcc.css" />
+    
+  </head>
+
+  <body> 
+    <!-- <div>
+
+    <div> 0 </div>
+    <div>
+        <button class="symbols"> + </button>
+        <button class="symbols"> - </button>
+        <button class="symbols"> × </button>
+        <button class="symbols"> ÷ </button>
+        <button> 7 </button>
+        <button> 8 </button>
+        <button> 9 </button>
+        <button> 4 </button>
+        <button> 5 </button>
+        <button> 6 </button>
+        <button> 1 </button>
+        <button> 2 </button>
+        <button> 3 </button>
+        <button> 0 </button>
+        <button> . </button>
+        <button> C </button>
+        <button> = </button>
+    </div> -->
+
+    <div class="container">
+      <div class="display"><span class="result">0</span></div>
+      <div class="keys">
+        <div class="symbols">
+          <button onclick="selectTask('plus')" class="plus">+</button>
+          <button onclick="selectTask('minus')" class="minus">-</button>
+          <button onclick="selectTask('multiply')" class="multiply">×</button>
+          <button onclick="selectTask('divide')" class="divide">÷</button>
+        </div>
+
+        <div class="bottom">
+          <div>
+            <div>
+              <button onclick="number(7)" >7</button>
+              <button onclick="number(8)" >8</button>
+              <button onclick="number(9)">9</button>
+            </div>
+            <div>
+              <button onclick="number(4)">4</button>
+              <button onclick="number(5)">5</button>
+              <button onclick="number(6)">6</button>
+            </div>
+            <div>
+              <button onclick="number(1)">1</button>
+              <button onclick="number(2)">2</button>
+              <button onclick="number(3)">3</button>
+            </div>
+            <div>
+              <button  onclick="number(0)">0</button>
+              <button  onclick="number('.')">.</button>
+              <button onclick="clearDisplay()">C</button>
+            </div>
+            <!-- <button id="equal">=</button> -->
+          </div>
+          <button class="equal">=</button>
+        </div>
+      </div>
+      <!-- <input type="text" name="display" value="0" >
+        <input type="button" value="+" >
+        <input type="button" value="-" >
+        <input type="button" value="×" >
+        <input type="button" value="÷" >
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3">
+        <input type="button" value="0">
+        <input type="button" data-action="decimal" value=".">
+        <input type="button" data-action="clear" value="C">
+        <input type="button" data-action="calculate" value="="> -->
+    </div>
+    <script src="./calc.js"></script>
+  </body>
+</html>

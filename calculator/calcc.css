@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.display{
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    text-align: end;
+    padding: 5px;
+}
+
+.keys > div {
+    display: flex;
+
+}                      
+       
+ .keys button {
+     padding: 10px;
+     flex-basis: 100%;
+     font-size: 25px;
+    border: solid 0.2px black;
+ }
+ 
+ .keys button:hover {
+     background-color: antiquewhite;
+ }
+ 
+ .bottom {
+     display: flex;
+ }
+
+ .equal {
+     flex-basis: 25% !important;
+     background-color: orangered;
+ }
+
+ .bottom > div:first-of-type {
+     flex-basis: 75%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .bottom > div:first-of-type button {
+     flex-basis: 100%;
+ }
+
+ .bottom > div:first-of-type > div {
+     display: flex;
+ }
+
+ 
+
+
+.symbols {
+    display: flex;
+    
+}
